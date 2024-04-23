@@ -19,7 +19,7 @@ app.get('/',(req,res)=>{
 })
 var FACBOOK = false;
 var F ='//FACBOOK//Login.html'
-app.get('/FACBOOK/login',(req,res)=>{
+app.get('/login',(req,res)=>{
 
     res.sendFile(__dirname + F)
 })
